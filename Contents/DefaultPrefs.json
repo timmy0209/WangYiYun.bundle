@@ -1,0 +1,26 @@
+[
+    {
+        "id": "lyc",
+        "label": "是否自动下载歌词",
+        "type": "bool",
+        "default": "true"
+    },
+ {
+    "id":"ifproxy",
+    "label":"是否使用代理",
+    "type":"bool",
+    "default":"false"
+  },
+ {
+    "id":"ip_path",
+    "label":"临时存放代理ip的txt路径",
+    "type":"text",
+    "default":"E://iplist.txt"
+  },
+ {
+    "id":"ip_url",
+    "label":"代理IP提取链接",
+    "type":"text",
+    "default":"https://api.xiaoxiangdaili.com/ip/get?appKey=xxxxxxxxxx&appSecret=xxxxxxxxxx&cnt=&wt=text"
+  },
+]
