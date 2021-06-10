@@ -1,5 +1,6 @@
 # coding=utf-8
 # Rewrite (use JSON API, other matching tweaks) by Timmy
+# 更多中文插件请访问plexmedia.cn
 import io
 import time
 import os
