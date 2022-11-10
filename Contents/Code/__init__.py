@@ -257,7 +257,7 @@ def get_album_bonus(media_albums, artist_id):
 class WangYiYunAgent(Agent.Artist):
   name = 'WangYiYun'
   languages = [Locale.Language.Chinese]
-
+  accepts_from = ['com.plexapp.agents.localmedia','com.plexapp.agents.lyricfind']
   def search(self, results, media, lang, manual):
 
     # Handle a couple of edge cases where artist search will give bad results.
